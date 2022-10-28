@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/qrcode-library",
+    "name": "qsfx/qrcode-library",
     "description": "QrCode Generator",
     "type": "library",
     "keywords": [
@@ -20,8 +20,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/2amigos/qrcode-library/issues",
-        "source": "https://github.com/2amigos/qrcode-library"
+        "issues": "https://github.com/qsfx/qrcode-library/issues",
+        "source": "https://github.com/qsfx/qrcode-library"
     },
     "repositories": [
         {
@@ -32,11 +32,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.3|^8.0",
         "ext-gd": "*",
         "ext-simplexml": "*",
-        "bacon/bacon-qr-code": "^1.0",
-        "khanamiryan/qrcode-detector-decoder": "^1.0"
+        "qsfx/bacon-qr-code": "^1.0",
+        "qsfx/qrcode-detector-decoder": "^1.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
